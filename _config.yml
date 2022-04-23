@@ -1,0 +1,52 @@
+# Site settings
+title:          ~/s1ngh.ca
+description:    "Collection of technology articles related to Linux, Automation, Cloud, etc."
+url:            https://s1ngh.ca
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Pushpinder Singh
+  # email:        
+  url:          https://s1ngh.ca
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /post/:title
+paginate:       8
+
+# Related posts settings
+related_posts_section:
+  max_count:        5
+  min_common_tags:  1
+
+# Links to social media
+social:
+  # email: 
+  github: https://github.com/pushpinderbal
+  twitter: https://twitter.com/pushpinderbal
+  # linkedin:
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
